@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="total-count">
+      <div class="total-count__number" data-curency="EUR" id="total-number">2000</div>
+    </div>
+    <div class="personal-count">
+      <div class="personal-count__item" id="tanya" data-name="tanya">
+        <div class="personal-count__item-top">
+          <div class="personal-name">Tatsiana</div>
+          <input type="number" class="counter" id="salary-tanya">
+        </div>
+        <div class="personal-count__item-bottom">
+          <div class="generalBank" data-number="420">Swedbank General (420)</div>
+          <div class="savingsAccount" data-number="300">Swedbank Savings (300)</div>
+          <div class="tax" data-number="1.3">Tax (1.3)</div>
+          <div class="personalBank hide" data-number="0">Revolut Personal <span></span></div>
+        </div>        
+      </div>
+      <div class="personal-count__item" id="stas" data-name="stas">
+        <div class="personal-count__item-top">
+          <div class="personal-name">Stas</div>
+          <input type="number" class="counter" id="salary-stas">
+        </div>
+        <div class="personal-count__item-bottom">
+          <div class="generalBank" data-number="1080">Swedbank General (1080)</div>
+          <div class="savingsAccount" data-number="300">Swedbank Savings (300)</div>
+          <div class="personalBank hide" data-number="0">Revolut Personal <span></span></div>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
